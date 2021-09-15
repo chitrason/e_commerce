@@ -8,7 +8,7 @@ const products = [
   {id:2, name: 'Macbook', description:'Apple macbook.', price:'$1130'},
 ]
 
-const Products = () => {
+const Products = ({products}) => {
   const classes = useStyles()
 
   return(
