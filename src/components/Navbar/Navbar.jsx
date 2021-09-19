@@ -17,7 +17,7 @@ const Navbar = ({ totalItems }) => {
       <AppBar postion="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            Commerce.js
+            E-Commerce
           </Typography>
           <div className={classes.grow}/>
           {location.pathname === '/' && (
